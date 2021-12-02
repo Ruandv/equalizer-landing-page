@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/frontendMentor/static/css/main.3e7696fc.chunk.css",
-    "main.js": "/frontendMentor/static/js/main.50ab962e.chunk.js",
-    "main.js.map": "/frontendMentor/static/js/main.50ab962e.chunk.js.map",
-    "runtime-main.js": "/frontendMentor/static/js/runtime-main.5ac5768a.js",
-    "runtime-main.js.map": "/frontendMentor/static/js/runtime-main.5ac5768a.js.map",
-    "static/js/2.ab1239c0.chunk.js": "/frontendMentor/static/js/2.ab1239c0.chunk.js",
-    "static/js/2.ab1239c0.chunk.js.map": "/frontendMentor/static/js/2.ab1239c0.chunk.js.map",
-    "static/js/3.0d8fc429.chunk.js": "/frontendMentor/static/js/3.0d8fc429.chunk.js",
-    "static/js/3.0d8fc429.chunk.js.map": "/frontendMentor/static/js/3.0d8fc429.chunk.js.map",
-    "index.html": "/frontendMentor/index.html",
-    "static/css/main.3e7696fc.chunk.css.map": "/frontendMentor/static/css/main.3e7696fc.chunk.css.map",
-    "static/js/2.ab1239c0.chunk.js.LICENSE.txt": "/frontendMentor/static/js/2.ab1239c0.chunk.js.LICENSE.txt",
-    "static/media/App.module.scss": "/frontendMentor/static/media/logo.dee4653f.svg",
-    "static/media/icon-android.4cafae52.svg": "/frontendMentor/static/media/icon-android.4cafae52.svg",
-    "static/media/icon-apple.512441f1.svg": "/frontendMentor/static/media/icon-apple.512441f1.svg"
+    "main.css": "/equalizer-landing-page/static/css/main.c0211ad7.chunk.css",
+    "main.js": "/equalizer-landing-page/static/js/main.50ab962e.chunk.js",
+    "main.js.map": "/equalizer-landing-page/static/js/main.50ab962e.chunk.js.map",
+    "runtime-main.js": "/equalizer-landing-page/static/js/runtime-main.ec94270e.js",
+    "runtime-main.js.map": "/equalizer-landing-page/static/js/runtime-main.ec94270e.js.map",
+    "static/js/2.ab1239c0.chunk.js": "/equalizer-landing-page/static/js/2.ab1239c0.chunk.js",
+    "static/js/2.ab1239c0.chunk.js.map": "/equalizer-landing-page/static/js/2.ab1239c0.chunk.js.map",
+    "static/js/3.0d8fc429.chunk.js": "/equalizer-landing-page/static/js/3.0d8fc429.chunk.js",
+    "static/js/3.0d8fc429.chunk.js.map": "/equalizer-landing-page/static/js/3.0d8fc429.chunk.js.map",
+    "index.html": "/equalizer-landing-page/index.html",
+    "static/css/main.c0211ad7.chunk.css.map": "/equalizer-landing-page/static/css/main.c0211ad7.chunk.css.map",
+    "static/js/2.ab1239c0.chunk.js.LICENSE.txt": "/equalizer-landing-page/static/js/2.ab1239c0.chunk.js.LICENSE.txt",
+    "static/media/App.module.scss": "/equalizer-landing-page/static/media/logo.dee4653f.svg",
+    "static/media/icon-android.4cafae52.svg": "/equalizer-landing-page/static/media/icon-android.4cafae52.svg",
+    "static/media/icon-apple.512441f1.svg": "/equalizer-landing-page/static/media/icon-apple.512441f1.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5ac5768a.js",
+    "static/js/runtime-main.ec94270e.js",
     "static/js/2.ab1239c0.chunk.js",
-    "static/css/main.3e7696fc.chunk.css",
+    "static/css/main.c0211ad7.chunk.css",
     "static/js/main.50ab962e.chunk.js"
   ]
 }
