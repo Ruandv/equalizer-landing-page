@@ -1,0 +1,225 @@
+@use "./variables.scss" as *;
+
+body {
+  margin: 0px;
+  padding: 0px 10px;
+  font-family: "IBM Plex Sans";
+  font-size: $primary-font-size;
+  line-height: $primary-line-height;
+  box-sizing: border-box;
+  background: url("./assets/bg-pattern-1.svg") 100% -40px no-repeat,
+    url("./assets/bg-main-desktop.png") -300px -200px no-repeat;
+}
+h1 {
+  font-size: 88px;
+  line-height: 88px;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 52px;
+  margin: 0px;
+}
+
+header {
+  padding-bottom: 250px;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  height: 100vh;
+  padding: 0px 165px;
+}
+.logo {
+  margin-top: 40px;
+  background-image: url("./assets/logo.svg");
+  background-repeat: no-repeat;
+  width: 50vw;
+}
+
+.description {
+  width: 70%;
+  padding-top: 150px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  width: 100%;
+}
+
+.blackDiv {
+  display: flex;
+  border-radius: 10px;
+  background: url(./assets/bg-pattern-2.svg) 43.5% -80px/310px 80% no-repeat;
+  background-color: $black;
+  width: 100%;
+  max-width: 1100px;
+  min-width: 700px;
+  height: 600px;
+}
+.phone {
+  background: url("./assets/illustration-app.png") no-repeat;
+  background-size: contain;
+  overflow: visible;
+  position: relative;
+  top: -225px;
+  height: 642px;
+  width: 100%;
+  left: 10%;
+}
+
+.salmonDiv {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: 10%;
+  background-color: $salmon;
+  color: $white;
+  border-radius: 10px;
+  width: 446px;
+
+  top: 50px;
+  padding: 50px;
+  span {
+    font-size: 20px;
+    padding-bottom: 50px;
+  }
+  .cost {
+    display: flex;
+  }
+  .stores {
+    .btn {
+      display: flex;
+      border-radius: 4px;
+      padding: 10px 0px;
+      margin: 14px 0px;
+      text-align: center;
+      font-weight: 700;
+      justify-content: space-around;
+      span {
+        padding-bottom: 0px;
+        img {
+          padding-right: 5px;
+        }
+      }
+      &:hover {
+        background-color: $blue;
+        cursor: pointer;
+      }
+    }
+    .ios {
+      background-color: $black;
+    }
+
+    .android {
+      background-color: $white;
+      color: $black;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background: url("./assets/bg-pattern-1.svg") 100% -40px/30% no-repeat,
+      url("./assets/bg-main-tablet.png") -256px -112px/983px 808px no-repeat;
+    font-size: $secondary-font-size;
+    line-height: $secondary-line-height;
+  }
+
+  .description {
+    padding-top: 10%;
+  }
+
+  h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .phone {
+    background-image: url("./assets/illustration-app.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: visible;
+    position: relative;
+    top: -138px;
+    height: 556px;
+    width: 100%;
+    left: 10%;
+  }
+
+  .salmonDiv {
+    width: 400px;
+    height: 546px;
+    top: 150px;
+    padding: 50px;
+    span {
+      font-size: 18px;
+    }
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  body {
+    background: url("./assets/bg-main-mobile.png") 100px -180px/983px 808px no-repeat;
+  }
+
+  h1 {
+    font-size: 40px;
+    line-height: 52px;
+    margin: 0px;
+  }
+
+  .App {
+    padding: 0%;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 70px;
+  }
+  main {
+    position: relative;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    width: 100%; 
+    display: flex;
+  }
+
+  .blackDiv {
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    flex-direction: column;
+    min-width: unset;
+    width: 100%;
+    background: url(./assets/bg-pattern-2.svg) no-repeat left top;
+    background-size: 400px 600px;
+    background-position-x: 10%;
+    background-color: $black;
+  }
+
+  .phone {
+    position: relative;
+    background-image: url("./assets/illustration-app.png");
+    background-repeat: no-repeat;
+    top: -50px;
+    min-height: 430px;
+    max-height: 430px;
+    left: 25%;
+  }
+
+  .salmonDiv {
+    width: 100%;
+    top: 75px;
+    padding: 50px;
+    span {
+      font-size: 18px;
+    }
+  }
+}
