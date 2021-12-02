@@ -48,7 +48,20 @@ function App() {
           </div>
         </div>
       </main>
-      <footer></footer>
+      <footer>
+        <div className={Styles.logo}>&nbsp;</div>
+        <div className={Styles.tcSocial}>
+          <div className={Styles.tc}>
+            All rights reserved © Equalizer 2021 Have any problems? Contact us
+            via social media or email us at equalizer@example.com
+          </div>
+          <div className={Styles.socialHolder}>
+            <div className={Styles.social + " " + Styles.facebook}>&nbsp;</div>
+            <div className={Styles.social + " " + Styles.twitter}>&nbsp;</div>
+            <div className={Styles.social + " " + Styles.insta}>&nbsp;</div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
