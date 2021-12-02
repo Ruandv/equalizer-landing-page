@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/frontendMentor/static/css/main.9e98101b.chunk.css",
+    "main.css": "/frontendMentor/static/css/main.3e7696fc.chunk.css",
     "main.js": "/frontendMentor/static/js/main.50ab962e.chunk.js",
     "main.js.map": "/frontendMentor/static/js/main.50ab962e.chunk.js.map",
     "runtime-main.js": "/frontendMentor/static/js/runtime-main.5ac5768a.js",
@@ -10,7 +10,7 @@
     "static/js/3.0d8fc429.chunk.js": "/frontendMentor/static/js/3.0d8fc429.chunk.js",
     "static/js/3.0d8fc429.chunk.js.map": "/frontendMentor/static/js/3.0d8fc429.chunk.js.map",
     "index.html": "/frontendMentor/index.html",
-    "static/css/main.9e98101b.chunk.css.map": "/frontendMentor/static/css/main.9e98101b.chunk.css.map",
+    "static/css/main.3e7696fc.chunk.css.map": "/frontendMentor/static/css/main.3e7696fc.chunk.css.map",
     "static/js/2.ab1239c0.chunk.js.LICENSE.txt": "/frontendMentor/static/js/2.ab1239c0.chunk.js.LICENSE.txt",
     "static/media/App.module.scss": "/frontendMentor/static/media/logo.dee4653f.svg",
     "static/media/icon-android.4cafae52.svg": "/frontendMentor/static/media/icon-android.4cafae52.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.5ac5768a.js",
     "static/js/2.ab1239c0.chunk.js",
-    "static/css/main.9e98101b.chunk.css",
+    "static/css/main.3e7696fc.chunk.css",
     "static/js/main.50ab962e.chunk.js"
   ]
 }
